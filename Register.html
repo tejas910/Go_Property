@@ -112,7 +112,6 @@
   </div>
 </div>
   
-
 <nav class="navbar navbar-inverse" style="padding:10px; font-size: large;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -126,7 +125,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="Register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="Login.html" ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
 </nav>
@@ -134,7 +133,7 @@
 <div class="container">
   <h2 style="  margin-left:490px;"><span class="glyphicon glyphicon-user"></span> &nbsp;Register</h2>
   <h3 style="  margin-left:490px;">Create an account</h3>
-  <form action="">
+  <form action="Login.html">
     <div class="form-group">
       <label for="email">Enter Username:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter Username" name="email" style="width: 400px; border: 1px solid #16161d;">
@@ -149,14 +148,14 @@
       </div>
       <div class="form-group">
         <label for="pwd">First Name:</label>
-        <input type="password" class="form-control" id="pwd" placeholder="First Name" name="pwd" style="width: 400px; border:1px solid #16161d;">
+        <input type="text" class="form-control" id="pwd" placeholder="First Name" name="pwd" style="width: 400px; border:1px solid #16161d;">
       </div>
       <div class="form-group">
         <label for="pwd">Last Name:</label>
-        <input type="password" class="form-control" id="pwd" placeholder="Last Name" name="pwd" style="width: 400px; border:1px solid #16161d;">
+        <input type="text" class="form-control" id="pwd" placeholder="Last Name" name="pwd" style="width: 400px; border:1px solid #16161d;">
       </div>
       
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary" onclick="alert('User Register Successfully...')">Submit</button>
   </form>
 </div>
 <br><br><br><br><br><br><br>

@@ -82,7 +82,9 @@
         color: white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     }
-  
+  .formupload{
+    text-align: center;
+  }
   </style>
 </head>
 <body>
@@ -142,7 +144,7 @@
     </div>
   </div>
 </div>
-  
+
 <nav class="navbar navbar-inverse" style="padding:10px; font-size: large;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -170,7 +172,11 @@
   </div>
 </nav>
   <br>
-
+  <form  class="formupload">
+    <h3>Upload your Property.</h3><br>
+    <input type="file" id="myFile" name="filename" style="text-align: center; margin-left:580px;"><br>
+    <button class="btn btn-success" onclick="alert('Property uploaded Successfully')">Upload</button>
+  </form>
   <div class="row">
     <div class="column">
         <div class="innerrow">
